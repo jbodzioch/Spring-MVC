@@ -1,3 +1,28 @@
 .sample {
-    color: red;
+	color: red;
+}
+
+table.gridtable {
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	border-width: 5px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+
+table.gridtable th {
+	border-width: 5px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #0080ff;
+	background-color: #000000;
+}
+
+table.gridtable td {
+	border-width: 3px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ff0000;
+	background-color: #400040;
 }
